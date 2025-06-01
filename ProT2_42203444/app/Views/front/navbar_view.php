@@ -1,7 +1,11 @@
 <!--inicio de la barra-->
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <div class="navbar-header">
+      <a class="navbar-brand me-auto barra" href="<?php echo base_url('/')?>">
+        <img src="<?php echo base_url('assets/img/logoempresa.jpg')?>" alt="marca" width="75" height="30" class="img-fluid">
+      </a>
+    </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -16,11 +20,19 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+            Categorias
           </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Reloj Mesa</a></li>
+            <li><a class="dropdown-item" href="#">Reloj Pared</a></li>
+            <li><hr class="dropdown-divider"></li>
+          </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          <a class="nav-link" href="login">login</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="registro">Registrarse</a>
         </li>
       </ul>
       <form class="d-flex" role="search">

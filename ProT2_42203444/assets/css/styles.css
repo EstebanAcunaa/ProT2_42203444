@@ -22,6 +22,10 @@ p   {
     left: auto;
 }
 
+p.parrafo {
+    margin: 1vw;
+}
+
 header {
     background-color: #ffffff;
     color: #000000;
@@ -69,6 +73,30 @@ img {
 }
 
 
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    color: #0033cc;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.card-text {
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.card-body {
+    height: 300px;
+    overflow-y: auto;
+}
+
 
 section {
     padding: 20px; /* espaciado para la sección de 20 pixeles */
@@ -78,11 +106,12 @@ footer {
     background-color: #534caf; /* Color de fondo del footer */
     color: #fff;
     padding: 20px 0; 
-
 }
+
 
 .footer-content {
     max-width: 800px; /* Ancho máximo del contenido del footer */
     margin: 0 auto; /* Centrar el contenido del footer horizontalmente */
     text-align: center;
 }
+
