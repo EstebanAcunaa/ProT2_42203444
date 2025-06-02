@@ -73,6 +73,7 @@ img {
 }
 
 
+
 .card-img-top {
     height: 250px;
     object-fit: cover;
@@ -93,7 +94,7 @@ img {
 }
 
 .card-body {
-    height: 300px;
+    height: auto;
     overflow-y: auto;
 }
 

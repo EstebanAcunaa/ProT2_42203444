@@ -8,6 +8,6 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <header>
-    <h1>Bienvenido a la pagina principal</h1>
+    <h1 class="text-black">Bienvenido a la pagina principal</h1>
 </header>
 <body>
